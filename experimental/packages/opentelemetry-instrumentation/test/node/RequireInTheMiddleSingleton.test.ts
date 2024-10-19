@@ -58,7 +58,6 @@ describe('RequireInTheMiddleSingleton', () => {
         onRequireCpxStub
       );
       requireInTheMiddleSingleton.register(
-
         'test-non-core-module/lib/copy-sync.js',
         onRequireCpxLibStub
       );
